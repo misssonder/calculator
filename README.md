@@ -1,6 +1,6 @@
 # Calculator
 Calculator is a library which support calculates the value of string.
-## Usage
+## Example
 ```rust
 fn main(){
     {

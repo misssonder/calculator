@@ -32,7 +32,7 @@ impl From<ast::Literal> for Value {
     }
 }
 
-trait Calculate {
+pub trait Calculate {
     fn calculate(&self) -> Result<Value>;
 }
 
@@ -42,7 +42,7 @@ impl<T: AsRef<str>> Calculate for T {
     }
 }
 
-pub struct Calculator<'a> {
+struct Calculator<'a> {
     parser: Parser<'a>,
 }
 

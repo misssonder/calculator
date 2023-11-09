@@ -1,7 +1,7 @@
 [package]
 name = "calculator-rs"
 description = "Calculator is a library which support calculates the value of string"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["misssonder <819643718@qq.com>"]
 repository = "https://github.com/misssonder/calculator"
 homepage = "https://github.com/misssonder/calculator"

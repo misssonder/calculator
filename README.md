@@ -1,5 +1,9 @@
 # Calculator
 Calculator is a library which support calculates the value of string.
+```toml
+[dependencies]
+calculator-rs = { version = "*" }
+```
 ## Example
 ```rust
 fn main(){
